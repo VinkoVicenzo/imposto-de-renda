@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="author" content="Vinko Vicenzo Tomljanovie">
+    <meta name="keywords" content="Imposto, calcular, renda">
+    <meta name="description" content="Site com a função de calcular o imposto de renda com seus descontos">
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <main>
+
+        <div id="title"> <h2> Imposto de Renda </h2></div>
+
+        <form id = "calcular"> 
+            <input id="name" name="name" autocomplete="off" type="text" placeholder="  Insira seu nome">
+            <input id="salario" name="salario" type="number" autocomplete="off" placeholder="  Insira o salário bruto">
+
+        </form>
+            <button id="button"> Calcular </button>
+
+        <table>
+                <tbody id= "tabela">
+                        <tr>
+                                <th>Nome</th>
+                                <th>Salário Bruto</th>
+                                <th>INSS %</th>
+                                <th>INSS R$</th>
+                                <th>IRPF %</th>
+                                <th>IRPF R$</th>
+                                <th>Salário Líquido</th>
+                        </tr>
+                </tbody>
+        </table>
+
+
+        <button id="limpar"> Limpar </button>
+       
+        
+    </main>
+
+    <script src= scripts.js> </script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+ .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 768px){
+
+body{
+    background-color: rgb(136, 64, 136);
+}
+
+#title h2 {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.5vw;
+    text-align: center;
+    font-size: 7.5vw;
+    color: whitesmoke;
+    font-family: 'Courrier New', Courier, monospace;
+}
+
+#name{
+    position: relative;
+    top: 15vw;
+    left: 8.4vw;
+    border-radius: 20px;
+    height: 7vh;
+    width: 80vw;
+    text-align: center;
+}
+
+#salario{
+    position: relative;
+    top: 19vw;
+    left: 8.4vw;
+    border-radius: 20px;
+    height: 7vh;
+    width: 80vw;
+    text-align: center;
+}
+
+
+#button{
+    margin-left: 63%;
+    background-color:rgb(5, 22, 54);
+    color: white;
+    width: 25vw;
+    height: 30px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px; 
+    border: none;
+    margin-top: 21.5%;
+}
+
+#tabela{
+    font-family:Arial;
+    background-color: white;
+    
+
+}
+
+#tabela th{
+    text-align: center;
+    width: 6vw;
+    font-size: 11px;
+    
+}
+
+table{
+    margin-top: 15px;
+    margin-left: 14%;
+    margin-bottom: 30px;
+}
+
+#limpar{
+    margin-left: 64%;
+    background-color:#051636;
+    color: #ffffff;
+    width: 25vw;
+    height: 30px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px; 
+    border: none;
+    margin-bottom: 50px;
+
+}
+
+}
+
+
+@media only screen and (min-width: 769px){
+
+    body{
+        background-color: rgb(136, 64, 136) ;
+    }
+    
+    #title h2 {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1.5vw;
+        text-align: center;
+        font-size: 2.5vw;
+        color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #name{
+        position: relative;
+        top: 6vw;
+        left: 24vw;
+        border-radius: 20px;
+        height: 7vh;
+        width: 50vw;
+        text-align: center;
+    }
+    
+    #salario{
+        position: relative;
+        top: 8vw;
+        left: 24vw;
+        border-radius: 20px;
+        height: 7vh;
+        width: 50vw;
+        text-align: center;
+    }
+    
+   
+    #button{
+        margin-left: 65%;
+        background-color:#051636;
+        color: #ffffff;
+        width: 9.5vw;
+        height: 35px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        border-radius: 50px 50px 50px 50px; 
+        border: none;
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+
+
+    #tabela{
+        font-family:Arial;
+        background-color: white;
+        color: black;
+    }
+
+    #tabela th{
+        text-align: center;
+        width: 7vw;
+        font-size: 13.5px;
+        
+    }
+
+    table{
+        margin-left: 24%;
+        margin-bottom: 10px;
+    }
+
+    #limpar{
+        margin-left: 65%;
+        background-color:#051636;
+        color: #ffffff;
+        width: 9.5vw;
+        height: 35px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        border-radius: 50px 50px 50px 50px; 
+        border: none;
+        margin-bottom: 50px;
+    }
+    
+    }
+    
